@@ -1,6 +1,5 @@
 package it.vscalcione.springboot.angular.crudapplication.controllers;
 
-
 import it.vscalcione.springboot.angular.crudapplication.beans.EmployeeDto;
 import it.vscalcione.springboot.angular.crudapplication.model.Employee;
 import it.vscalcione.springboot.angular.crudapplication.service.EmployeeService;
@@ -20,11 +19,17 @@ import java.util.stream.Collectors;
 @RequestMapping("/api/v1")
 public class EmployeeController {
 
-    @Autowired
     private EmployeeService employeeService;
+    private ModelMapper modelMapper;
+
+    public EmployeeController(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
 
     @Autowired
-    private ModelMapper modelMapper;
+    public EmployeeController(ModelMapper modelMapper) {
+        this.modelMapper = modelMapper;
+    }
 
     @GetMapping("/employees")
     public List<EmployeeDto> getAllEmployees(){
