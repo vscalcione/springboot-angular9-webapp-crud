@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/angular9-springboot-client/angular9-springboot-client.iml" filepath="$PROJECT_DIR$/angular9-springboot-client/angular9-springboot-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-angular-crud-be/springboot-angular-crud-be.iml" filepath="$PROJECT_DIR$/springboot-angular-crud-be/springboot-angular-crud-be.iml" />
+    </modules>
+  </component>
+</project>
