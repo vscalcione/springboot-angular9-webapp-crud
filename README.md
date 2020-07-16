@@ -9,5 +9,5 @@
 This is a simple CRUD application made in Java with Spring Framework in Backend and with Angular (Typescript)  in Frontend.
 
 
-You can show Backend project at https://github.com/vscalcione/springboot-angular9-webapp-crud/springboot-angular-crud-be <br>
-and Frontend at https://github.com/vscalcione/springboot-angular9-webapp-crud/angular9-springboot-client
+You can show Backend project at https://github.com/vscalcione/springboot-angular9-webapp-crud/tree/master/springboot-angular-crud-be <br>
+and Frontend at https://github.com/vscalcione/springboot-angular9-webapp-crud/tree/master/angular9-springboot-client
