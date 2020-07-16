@@ -1,0 +1,7 @@
+{
+  "springboot-crud-rest/api/v1/*": {
+    "target": "http://localhost:8080/springboot-crud-rest/employees",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
